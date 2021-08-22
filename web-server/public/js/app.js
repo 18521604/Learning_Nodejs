@@ -1,5 +1,3 @@
-console.log("Client javascript site")
-
 const weatherForm = document.querySelector('form')
 const searchContent = document.querySelector('input')
 const messageLocation = document.querySelector('#message-location')
