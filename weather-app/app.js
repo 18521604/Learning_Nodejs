@@ -8,6 +8,7 @@ if (!address) {
 } else {
     geocode(address, (error, { name, location }) => {
         if (error) {
+            
             return console.log('Error', error)
         }
         forecast(name, (error, forecastData) => {
